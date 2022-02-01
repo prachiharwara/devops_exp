@@ -1,3 +1,4 @@
+#shellsort function
 def shellsort(arr):
     gap = len(arr)//2
 
@@ -11,7 +12,7 @@ def shellsort(arr):
             arr[j] = anchor 
         gap = gap//2
 
-
+#applying shellsort to list
 elements = [89,78,61,53,23,21,17,12,9,7,6,2,1]
 shellsort(elements)
 print(elements)
